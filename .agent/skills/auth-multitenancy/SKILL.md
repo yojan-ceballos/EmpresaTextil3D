@@ -34,5 +34,5 @@ This skill governs how we identify users and isolate data between tenants (Organ
     -   `Viewer`: View Assets only.
 
 ## Interactions
--   **Backend**: This skill provides the `Middleware` and `Context` patterns used by `Backend-go`.
+-   **Backend**: This skill provides the `Middleware` and `Context` patterns used by `backend-fiber`.
 -   **Frontend**: The React app must refresh tokens transparently and handle `401 Unauthorized` / `403 Forbidden` gracefully.

@@ -8,9 +8,11 @@ This is the **Meta-Rule** that governs how the agent interacts with the 3D SaaS 
 
 ## 1. Skill First Policy
 Before writing code, YOU MUST read the relevant `SKILL.md`.
--   Building Backend? -> Read `.agent/skills/Backend-go/SKILL.md`.
+-   Building Backend? -> Read `.agent/skills/backend-fiber/SKILL.md`.
 -   Building Frontend? -> Read `.agent/skills/frontend-react/SKILL.md`.
 -   Processing Assets? -> Read `.agent/skills/3d-asset-pipeline/SKILL.md`.
+-   Working on FLOW? -> Read `.agent/rules/service-flow.md`
+-   Working on ATLAS? -> Read `.agent/rules/service-atlas.md`
 
 ## 2. Multi-Tenancy is Non-Negotiable
 -   **Default Disallow**: Assume NO access.

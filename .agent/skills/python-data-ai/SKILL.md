@@ -33,5 +33,5 @@ This skill governs the "Data Plane" of the application: 3D processing and AI ana
 ```
 
 ## Interactions
--   **Backend-go**: Triggers these jobs via a Message Queue (e.g., RabbitMQ/Redis).
+-   **backend-fiber**: Triggers these jobs via a Message Queue (e.g., RabbitMQ/Redis).
 -   **3d-asset-pipeline**: The code here IMPLEMENTS the logic defined in the pipeline skill.

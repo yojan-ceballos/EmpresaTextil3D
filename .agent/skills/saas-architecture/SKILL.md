@@ -29,5 +29,5 @@ This skill governs the business model implementation: Subscriptions, Usage Credi
 -   The Backend `usecase` layer checks these flags.
 
 ## Interactions
--   **Backend**: `Backend-go` services call this skill's logic for quota checks.
+-   **Backend**: `backend-fiber` services call this skill's logic for quota checks.
 -   **Python-data-ai**: Reports actual compute usage back to the SaaS ledger for auditing.
